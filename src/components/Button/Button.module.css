@@ -1,0 +1,10 @@
+.button {
+    padding: 10px;
+    background-color: lightgray;
+  }
+  
+  .primary-button {
+    background-color: blue;
+    color: white;
+  }
+  
