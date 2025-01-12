@@ -9,6 +9,8 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     width: fit-content;
+    cursor: pointer;
+    user-select: none;
 }
 
 .chip--neutral {
@@ -17,14 +19,13 @@
     color: #474747;
 }
 
-.chip--primary {
-    background: #0000006B;
-    backdrop-filter: blur(50px);
-    color: #FFFFFF;
-}
-
 .chip--ghost {
     background-color: transparent;
-    backdrop-filter: blur(50px);
     color: #474747;
+}
+
+.chip--active {
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(50px)
 }

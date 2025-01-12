@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    max-width: fit-content;
+    gap: 2px;
+    background: #0000006B;
+    backdrop-filter: blur(50px);
+    border-radius: 100px;
+    padding: 2px;
+}
+

@@ -6,8 +6,8 @@ const getChipClass = (type: ChipType) => {
   switch (type) {
     case "neutral":
       return styles["chip--neutral"];
-    case "primary":
-      return styles["chip--primary"];
+    case "active":
+      return styles["chip--active"];
     case "ghost":
       return styles["chip--ghost"];
     default:
@@ -17,7 +17,7 @@ const getChipClass = (type: ChipType) => {
 
 export const Chip = ({ label, onClick, type }: ChipProps) => {
   const chipClasses = `${styles.chip} ${getChipClass(type)}`;
-
+  console.log(getChipClass(type), "chipClasses");
   return (
     <div className={chipClasses} onClick={onClick}>
       {label}

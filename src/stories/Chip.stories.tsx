@@ -16,14 +16,14 @@ Neutral.args = {
   type: "neutral",
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
-  label: "Удаленно",
-  type: "primary",
-};
-
 export const Ghost = Template.bind({});
 Ghost.args = {
   label: "Удаленно",
   type: "ghost",
+};
+
+export const Active = Template.bind({});
+Active.args = {
+  label: "Удаленно (акт)",
+  type: "active",
 };

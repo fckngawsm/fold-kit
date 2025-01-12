@@ -1,4 +1,4 @@
-export type ChipType = "neutral" | "primary" | "ghost";
+export type ChipType = "neutral" | "primary" | "ghost" | "active";
 export interface ChipProps {
   label: string;
   type: ChipType;
