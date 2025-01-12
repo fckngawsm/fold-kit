@@ -1,0 +1,30 @@
+.chip {
+    border-radius: 500px;
+    padding: 6px 12px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: fit-content;
+}
+
+.chip--neutral {
+    background-color: #ffffff;
+    backdrop-filter: blur(14px);
+    color: #474747;
+}
+
+.chip--primary {
+    background: #0000006B;
+    backdrop-filter: blur(50px);
+    color: #FFFFFF;
+}
+
+.chip--ghost {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    color: #474747;
+}
