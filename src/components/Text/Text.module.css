@@ -1,16 +1,16 @@
 .text {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.2px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .text--gray {
-    color: rgba(71, 71, 71, 1);
+  color: rgba(71, 71, 71, 1);
 }
 
 .text--default {
-    color: rgba(0, 0, 0, 0.42);
+  color: rgba(0, 0, 0, 0.42);
 }
